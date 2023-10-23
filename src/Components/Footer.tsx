@@ -57,9 +57,8 @@ const Footer = () => {
         <div className=" ">
           <h2 className="text-4xl pb-10 torigin-top-left rotate-12">Social Media AC</h2>
           <div className="flex text-4xl gap-10 items-center justify-center ">
-          <a className=" " target="_blank" href="http://www.facebook.com/mdabubakor13"><AiFillFacebook/>
-         
-           </a>
+          <a className=" " target="_blank" href="http://www.facebook.com/mdabubakor13"><AiFillFacebook/> </a>
+
           <a target="_blank" href="http://www.instagram.com/abu_bakar460/"><FaInstagramSquare/></a>
           <a target="_blank" href="http://github.com/mdabubakor"><BsGithub/></a>
           <a target="_blank"href="http://www.youtube.com/@iabs4203/videos"><BsYoutube/></a>

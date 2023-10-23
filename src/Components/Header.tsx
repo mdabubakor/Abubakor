@@ -18,7 +18,7 @@ const Header =()=>{
     
     
     return(
-        <div className=" bg-transparent sticky top-0 w-full  shadow-inner shadow-zinc-950 ">
+        <div  className=" bg-transparent sticky top-0 w-full  shadow-inner shadow-zinc-950 ">
             <div className=" relative max-w-screen-xl mx-auto  h-full items-center flex justify-between px-4 xl:px-0">
                <div>
                 <Image src={ABS} alt='ABS ' className='w-16 h-16 '/>

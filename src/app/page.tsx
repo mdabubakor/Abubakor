@@ -6,12 +6,17 @@ import Services from "@/Components/Services";
 
 
 
+
 export default function Home() {
+  
   return (
     < >
       
       <Banner/>
+      
+
       <Services/>
+      
       <Exparience/>
     </>
   );

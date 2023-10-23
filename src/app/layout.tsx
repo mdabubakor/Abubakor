@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-bg-image bg-cover opacity-100 bg-fixed">
+      <body className=" md:bg-cover  bg-bg-image opacity-100 bg-fixed bg-cover    ">
         <Header />
        
         {children}
