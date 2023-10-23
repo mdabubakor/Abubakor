@@ -1,4 +1,4 @@
-import AB from '../Assets/Ab 1.png'
+import AB from '../Assets/Ab_1.png'
 
 
 export const navigation = [
@@ -7,7 +7,7 @@ export const navigation = [
   { title: "Services", href: "/services" },
   { title: "Protfolio", href: "/protfolio" },
   { title: "Contact", href: "/contact" },
-  { title: "Resume", href: "/resume" },
+  { title: "Resume", href: "/ABUBAKAR.pdf"  },
   
 ];
 export const Services = [
