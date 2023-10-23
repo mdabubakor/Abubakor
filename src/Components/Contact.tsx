@@ -13,7 +13,7 @@ const Contact = () => {
     <>
    <Container>
      <div  className='    '>
-        <div className='grid grid-cols-2 sm:grid-1 text-white items-center  '>
+        <div className='md:grid-1 lg:grid grid-cols-2  text-white items-center  '>
             
             <div className='flex flex-col '>
                 <h4 className='text-4xl'>CONTACT INFO</h4>
