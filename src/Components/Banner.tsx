@@ -7,7 +7,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   return (
-    <div className="bg-zinc-900 h-full text-white  shadow-inner shadow-zinc-700">
+    <div className="bg-zinc-900 h-full text-white  shadow-inner  shadow-zinc-700">
       <Container className="flex items-center min-h-screen ">
         <div className="w-1/2 flex flex-col gap-2">
           <h2 className="text-2xl font-semibold ">Abu-Bakar</h2>

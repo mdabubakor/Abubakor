@@ -15,7 +15,7 @@ const Exparience = () => {
   return (
     <div className=' px-4 m-10'>
       <h2 className='text-white text-5xl flex items-center justify-center my-28 p-9 shadow-inner shadow-zinc-700 rounded-full'>Exparience</h2>
-      <div className='grid grid-cols-4 gap-4  ' >
+      <div className='xl:grid grid-cols-4 md:grid-1  gap-4  ' >
       {
         exparience.map((item)=>(
           <div key={item.id}   className=' text-white   shadow-zinc-600  rounded-2xl '>

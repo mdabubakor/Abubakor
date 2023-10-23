@@ -32,7 +32,7 @@ const Footer = () => {
             tempora molestiae.
           </p>
         </div>
-        <ul className='flex flex-col items-center justify-center gap-10 uppercase font-semibold text-sm text-zinc-500'>
+        <ul className='flex flex-col items-center justify-center gap-4 uppercase font-semibold text-sm text-zinc-500'>
               {
                 navigation.map((item)=>(
                     <Link key={item.title} href={item.href}>
@@ -43,7 +43,7 @@ const Footer = () => {
               }
             
                </ul>
-               <ul className='flex flex-col items-center justify-center gap-10 uppercase font-semibold text-sm text-zinc-500'>
+               <ul className='flex flex-col items-center justify-center gap-4 uppercase font-semibold text-sm text-zinc-500'>
               {
                 Services.map((item)=>(
                     
@@ -53,11 +53,13 @@ const Footer = () => {
                 ))
               }
             
-               </ul>
+               </ul >
         <div className=" ">
           <h2 className="text-4xl pb-10 torigin-top-left rotate-12">Social Media AC</h2>
           <div className="flex text-4xl gap-10 items-center justify-center ">
-          <a className="" target="_blank" href="http://www.facebook.com/mdabubakor13"><AiFillFacebook/></a>
+          <a className=" " target="_blank" href="http://www.facebook.com/mdabubakor13"><AiFillFacebook/>
+         
+           </a>
           <a target="_blank" href="http://www.instagram.com/abu_bakar460/"><FaInstagramSquare/></a>
           <a target="_blank" href="http://github.com/mdabubakor"><BsGithub/></a>
           <a target="_blank"href="http://www.youtube.com/@iabs4203/videos"><BsYoutube/></a>

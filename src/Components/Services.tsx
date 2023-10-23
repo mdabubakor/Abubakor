@@ -19,7 +19,7 @@ const Services = () => {
             <h3 className="text-zinc-400 ">What we can do for you</h3>
             <h2 className="text-4xl font-semibold">My Awesome Service</h2>
           </div>
-          <div className=" grid grid-cols-3 gap-3 ">
+          <div className=" xl:grid grid-cols-3 md:grid-1 gap-3 ">
             <div className="  flex flex-col items-center rounded-s-full justify-center py-8  shadow-slate-50 shadow-xl ">
               <div className="flex items-center gap-8 ">
                 <h1 className="text-3xl font-semibold">WEB DESIGN</h1>
